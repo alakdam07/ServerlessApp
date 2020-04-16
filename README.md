@@ -9,11 +9,6 @@
   />
 </div>
 
-## Description of the app: User can create, read, update and delete the student. Also user can create new course and can able to enroll the student.
-
-- **Can:** User can create, read, update and delete the student.
-- **Cannot:** User cannot put duplicate phone, email and id.
-
 **Tachnology:**
 
 - **Backend:** Node js, Express server, Helmet, Morgan, Cors.
