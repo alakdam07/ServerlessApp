@@ -26,12 +26,8 @@
   - [x] Create .env file and add [AWS](https://aws.amazon.com/console/)'s Accessley and Secetkey
   - [x] Deploy to S3 bucket
   - [x] Setup S3 bucket policy and static web hosting
-  - [x]Install dependencies
-  - [x]Use hooks
-  - [x]
-  - [x]
-  - [x]
-  - [x]
+  - [x] Install dependencies
+  - [x] Use hooks
   - [x] Fetch data
   - [x] Shows data to the browser
   - [x] Styling
