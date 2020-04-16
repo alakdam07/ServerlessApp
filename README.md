@@ -13,12 +13,12 @@
 
 **Tachnology:**
 
-- **Serverless:** Install serverless[boilerplate](https://github.com/serverless-components/website)
+- **Serverless:** Install serverless [boilerplate](https://github.com/serverless-components/website)
 - **Frontend:** React js, React-router-dom.
 
 ## Backlogs
 
-- [x] Setup App
+- [x] App setup
   - [x] Install [serverless](https://serverless.com/) globally
   - [x] Setup Serverless and [AWS](https://aws.amazon.com/console/)
   - [x] Create Serverless [website](https://github.com/serverless-components/website) bolierplate
