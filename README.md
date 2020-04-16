@@ -31,22 +31,16 @@
   - [x] Create .env file and add [AWS](https://aws.amazon.com/console/)'s Accessley and Secetkey
   - [x] Deploy to S3 bucket
   - [x] Setup S3 bucket policy and static web hosting
+  - [x]Install dependencies
+  - [x]Use hooks
   - [x]
   - [x]
   - [x]
   - [x]
-  - [x] Install dependencies
-  - [x] Use hooks
-  - [x] React-router-dom setup
-  - [x] Proxy setting
   - [x] Fetch data
   - [x] Shows data to the browser
-  - [x] Add datatable
-  - [x] Implement delete data button
-  - [x] Implement edit data button
   - [x] Styling
   - [x] Error handaling
-  - [x] Build production
 
 ### Usage
 
