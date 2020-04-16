@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Data from "./Data";
-import { API_ID, API_KEY } from "./Api";
+import { API_ID, API_KEY } from "../../Api.js";
 
 function Recipe() {
   const [content, setContent] = useState([]);
