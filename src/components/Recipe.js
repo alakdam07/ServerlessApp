@@ -18,7 +18,8 @@ function Recipe() {
       `https://api.edamam.com/search?q=${food}&app_id=${API_ID}&app_key=${API_KEY}`
     )
       .then(response => response.json())
-      .then(data => setContent(data.hits));
+      .then(data => setContent(data.hits))
+      .catch(err => console.log("upps", err));
     setFood("");
     setLoading(false);
   };
@@ -29,26 +30,36 @@ function Recipe() {
   };
 
   return (
-    <div className="wrapper">
-      <form onSubmit={getFood}>
+    <React.Fragment>
+      <form onSubmit={getFood} className="wrapper">
         <input
           type="text"
           value={food}
           onChange={e => setFood(e.target.value)}
+          placeholder="search for recipe"
+          className=""
         />
-        <button type="submit">Search</button>
+        <button
+          className="btn waves-effect waves-light "
+          type="submit"
+          name="action"
+        >
+          search
+        </button>
       </form>
-      {content.map(items => (
-        <Data
-          key={items.recipe.label}
-          title={items.recipe.label}
-          calories={items.recipe.calories}
-          ingredients={items.recipe.ingredientLines}
-          image={items.recipe.image}
-          loading={loading}
-        />
+      {content.map((items, index) => (
+        <div key={index}>
+          <Data
+            key={items.recipe.label}
+            title={items.recipe.label}
+            calories={items.recipe.calories}
+            ingredients={items.recipe.ingredientLines}
+            image={items.recipe.image}
+            loading={loading}
+          />
+        </div>
       ))}
-    </div>
+    </React.Fragment>
   );
 }
 

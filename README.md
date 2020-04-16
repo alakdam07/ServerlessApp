@@ -1,4 +1,6 @@
-# Serverless ReactApp:
+# Serverless ReactApp
+
+## User can search for food recipes.
 
 <div style="text-align:center">
 <img
@@ -11,15 +13,12 @@
 
 **Tachnology:**
 
-- **Backend:** Node js, Express server, Helmet, Morgan, Cors.
-- **Database:** PostgreSQL and sequelize ORM for connection and models' creation.
-- **API:** REST API.
+- **Serverless:** Install serverless[boilerplate](https://github.com/serverless-components/website)
 - **Frontend:** React js, React-router-dom.
-- **Designing:** Materializecss
 
 ## Backlogs
 
-- [x] Setup Backend
+- [x] Setup App
   - [x] Install [serverless](https://serverless.com/) globally
   - [x] Setup Serverless and [AWS](https://aws.amazon.com/console/)
   - [x] Create Serverless [website](https://github.com/serverless-components/website) bolierplate
@@ -43,6 +42,12 @@ $ npm run start
 ```
 
 App will run: `http://localhost:1234/`
+
+## Urls
+
+[S3-bucket-url](http://website-x099s87.s3-website.us-east-1.amazonaws.com)
+
+[Cloudfront-url](https://d33z1sfmvpcg85.cloudfront.net)
 
 ## Author
 
